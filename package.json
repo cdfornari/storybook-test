@@ -1,5 +1,6 @@
 {
   "name": "fornari-storybook-deploytest",
+  "author": "Carlos Fornari",
   "version": "0.1.0",
   "private": false,
   "license": "MIT",
