@@ -8,6 +8,7 @@ export default {
         size: { control: 'select'},
         color: { control: 'select'},
         fontColor: { control: 'color'},
+        backgroundColor: {control: 'color'}
     }
 } as ComponentMeta<typeof MyLabel>
 
@@ -38,5 +39,13 @@ Terciary.args = {
 
 export const CustomFontColor = Template.bind({});
 CustomFontColor.args = {
-    fontColor: '#5517ac'
+    fontColor: '#5517ac',
+    size: 'h1'
+}
+
+export const CustomBackgroundColor = Template.bind({});
+CustomBackgroundColor.args = {
+    fontColor: '#eeeeee',
+    backgroundColor: '#000000',
+    size: 'h1'
 }
